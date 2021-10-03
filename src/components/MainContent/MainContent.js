@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 import { getNews } from '../../utils/apiCalls';
+import ArticleContainer from '../ArticleContainer/ArticleContainer';
 import './MainContent.css';
 
 const MainContent = () => {
@@ -9,7 +10,7 @@ const MainContent = () => {
 
   const fetchNews = () => {
     getNews()
-      .then(data => setAllNews(data))
+      .then(data => setAllNews(data.articles))
       .catch(error => console.log('ERRR: ', error))
   }
 
@@ -20,7 +21,8 @@ const MainContent = () => {
 
   return (
     <section>
-    <h2>dis main content</h2>
+      <h2>dis main content</h2>
+      <ArticleContainer allNews={allNews} />
     {console.log('allNews:  ', allNews)}
     </section>
   )
