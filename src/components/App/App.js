@@ -1,4 +1,4 @@
-import { getNews } from '../../utils/apiCalls';
+// import { getNews } from '../../utils/apiCalls';
 import MainContent from '../../components/MainContent/MainContent'
 import './App.css';
 
