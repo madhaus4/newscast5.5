@@ -19,7 +19,10 @@ const MainContent = () => {
 
 
   return (
+    <section>
     <h2>dis main content</h2>
+    {console.log('allNews:  ', allNews)}
+    </section>
   )
 }
 
