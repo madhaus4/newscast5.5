@@ -1,4 +1,4 @@
-import { set } from 'cypress/types/lodash';
+// import { set } from 'cypress/types/lodash';
 import React, { useState, useEffect } from 'react';
 
 import { getNews } from '../../utils/apiCalls';
