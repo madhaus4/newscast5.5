@@ -1,10 +1,9 @@
 import './ArticleCard';
 
-const ArticleCard = () => {
-
+const ArticleCard = ({ content, description, title, image, publishedAt, url, sourceName, sourceUrl }) => {
   return (
     <article>
-      <h3>yo</h3>
+      <h3>{description}</h3>
     </article>
   )
 }
