@@ -20,8 +20,12 @@ const MainContent = () => {
 
 
   return (
-    <section>
-      <h2>dis main content</h2>
+    <section className='main-container'>
+      <div className='main-btn-container'>
+        <button>Recommended for you</button>
+        <button>Reading List</button>
+        <button>Favorites</button>
+      </div>
       <ArticleContainer allNews={allNews} />
     {console.log('allNews:  ', allNews)}
     </section>
