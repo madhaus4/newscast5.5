@@ -1,3 +1,7 @@
+.article-card {
+  border: 1px solid black;
+}
+
 .article-card > img {
   height: 20vh;
   width: auto;
