@@ -4,8 +4,10 @@ const ArticleCard = ({ content, description, title, image, publishedAt, url, sou
   return (
     <article className='article-card'>
       <img src={image} alt={`visual for ${title}`} />
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <div className='article-info'>
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </div>
     </article>
   )
 }
