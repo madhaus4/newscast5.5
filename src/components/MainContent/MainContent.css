@@ -2,3 +2,12 @@
   height: 100%;
   width: 75%;
 }
+
+.main-btn-container {
+  height: 10vh;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
