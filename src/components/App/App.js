@@ -1,11 +1,12 @@
 // import { getNews } from '../../utils/apiCalls';
+import PageHeader from '../PageHeader/PageHeader';
 import MainContent from '../../components/MainContent/MainContent'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Newscast 5.5</h1>
+      <PageHeader />
       <MainContent />
 
     </div>
