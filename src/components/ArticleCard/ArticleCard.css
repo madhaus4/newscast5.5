@@ -7,6 +7,18 @@
 }
 
 .article-card > img {
-  height: 20vh;
-  width: auto;
+  /* height: 20vh; */
+  width: 40%;
+  object-fit: cover;
+}
+
+.article-info {
+  padding: 1%;
+  margin: 1%;
+  overflow: hidden;
+}
+
+.article-info > h3,
+.article-info > p {
+  margin: 0;
 }
