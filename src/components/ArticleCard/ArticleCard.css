@@ -41,18 +41,18 @@
 }
 
 .reading-list-icon {
-  height: 25px;
+  height: 30px;
   width: auto;
   padding: 1%;
   margin: .5%;
 
   position: absolute;
   bottom: 5%;
-  left: 85%;
+  left: 83%;
 }
 
 .favorite-list-icon {
-  height: 25px;
+  height: 30px;
   width: auto;
   padding: 1%;
   margin: .5%;
