@@ -11,8 +11,10 @@ const ArticleCard = ({ content, description, title, image, publishedAt, url, sou
       <div className='article-info'>
         <h3>{title}</h3>
         <p>{description}</p>
-        <img className='reading-list-icon' src={addTo} alt='' />
-        <img className='favorite-icon' src={unfavorite} alt='' />
+        <div className='icon-wrapper'>
+          <img className='reading-list-icon' src={addTo} alt='' />
+          <img className='favorite-list-icon' src={unfavorite} alt='' />
+        </div>
       </div>
     </article>
   )
