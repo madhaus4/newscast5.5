@@ -18,11 +18,24 @@
   text-overflow: ellipsis;
   overflow: hidden;
   /* white-space: nowrap; */
+
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.article-info > h3,
-.article-info > p {
+.info-wrapper {}
+
+.info-wrapper > h3,
+.info-wrapper > p {
   margin: 0;
+}
+
+.icon-wrapper {
+  /* display: flex;
+  justify-content: flex-end; */
+  width: 20%;
+  align-self: flex-end;
 }
 
 .reading-list-icon {
