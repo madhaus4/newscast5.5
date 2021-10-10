@@ -24,3 +24,13 @@
 .article-info > p {
   margin: 0;
 }
+
+.reading-list-icon {
+  height: 25px;
+  width: auto;
+}
+
+.favorite-list-icon {
+  height: 25px;
+  width: auto;
+}
