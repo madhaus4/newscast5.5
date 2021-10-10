@@ -18,9 +18,49 @@
   text-overflow: ellipsis;
   overflow: hidden;
   /* white-space: nowrap; */
+
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.article-info > h3,
-.article-info > p {
+.info-wrapper {}
+
+.info-wrapper > h3,
+.info-wrapper > p {
   margin: 0;
+}
+
+.icon-wrapper {
+  width: 100%;
+  /* align-self: flex-end; */
+  display: flex;
+  justify-content: flex-end;
+
+  position: relative;
+}
+
+.reading-list-icon {
+  height: 30px;
+  width: auto;
+  padding: 1%;
+  margin: .5%;
+
+  position: absolute;
+  bottom: 5%;
+  left: 83%;
+}
+
+.favorite-list-icon {
+  height: 30px;
+  width: auto;
+  padding: 1%;
+  margin: .5%;
+
+  position: absolute;
+  bottom: 5%;
+}
+
+.icon-wrapper > img:hover {
+  cursor: pointer;
 }
