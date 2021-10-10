@@ -1,12 +1,12 @@
 .nav-container {    
   /* height: 100%; */
   width: 25%;
-  padding: 2%;
+  padding: 0 1%;
   border-left: 1px solid black;
 }
 
 .nav-container > h2 {
-  padding: 0 1%;
+  padding: 7% 0;
   margin: 0;
 } 
 
