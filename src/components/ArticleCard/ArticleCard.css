@@ -1,5 +1,5 @@
 .article-card {
-  height: 31vh;
+  /* height: 31vh; */
   width: 94%;
   margin: 0 2% 2%;
   border: 1px solid black;
@@ -32,18 +32,35 @@
 }
 
 .icon-wrapper {
-  /* display: flex;
-  justify-content: flex-end; */
-  width: 20%;
-  align-self: flex-end;
+  width: 100%;
+  /* align-self: flex-end; */
+  display: flex;
+  justify-content: flex-end;
+
+  position: relative;
 }
 
 .reading-list-icon {
   height: 25px;
   width: auto;
+  padding: 1%;
+  margin: .5%;
+
+  position: absolute;
+  bottom: 5%;
+  left: 85%;
 }
 
 .favorite-list-icon {
   height: 25px;
   width: auto;
+  padding: 1%;
+  margin: .5%;
+
+  position: absolute;
+  bottom: 5%;
+}
+
+.icon-wrapper > img:hover {
+  cursor: pointer;
 }
