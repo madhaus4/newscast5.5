@@ -9,12 +9,14 @@ const ArticleCard = ({ content, description, title, image, publishedAt, url, sou
     <article className='article-card'>
       <img src={image} alt={`visual for ${title}`} />
       <div className='article-info'>
-        <h3>{title}</h3>
-        <p>{description}</p>
-        <div className='icon-wrapper'>
+        <section className='info-wrapper'>
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </section>
+        <section className='icon-wrapper'>
           <img className='reading-list-icon' src={addTo} alt='' />
           <img className='favorite-list-icon' src={unfavorite} alt='' />
-        </div>
+        </section>
       </div>
     </article>
   )
